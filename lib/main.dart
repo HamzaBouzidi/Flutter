@@ -1,6 +1,7 @@
 import 'package:app/screens/details.dart';
 import 'package:app/screens/home_screen.dart';
 import 'package:app/screens/inscription.dart';
+import 'package:app/screens/movie-panier.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const Inscription(),
+      home: const Panier(),
     );
   }
 }
